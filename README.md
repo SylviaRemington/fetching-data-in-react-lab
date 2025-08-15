@@ -63,11 +63,11 @@ if (!res.ok) {
 
 - This code should go between the fetch() call and the return statement in your service function.
 
-4. Create each of the components listed below.
+4. **Create each of the components listed below.**
 
-- src/components/StarshipSearch/StarshipSearch.jsx
-- src/components/StarshipList/StarshipList.jsx
-- src/components/StarshipCard/StarshipCard.jsx
+- **src/components/StarshipSearch/StarshipSearch.jsx**
+- **src/components/StarshipList/StarshipList.jsx**
+- **src/components/StarshipCard/StarshipCard.jsx**
 
 5. Import StarshipSearch and StarshipList at the top of App.jsx. Import the StarshipCard component in StarshipList.jsx. You’ll use the StarshipCard when mapping through props.starships in the StarshipList component.
 
