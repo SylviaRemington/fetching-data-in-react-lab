@@ -1,4 +1,4 @@
-Fetching Data in React Lab Exercise - Star Wars API
+# Fetching Data in React Lab Exercise - Star Wars API
 
 # React + Vite
 
