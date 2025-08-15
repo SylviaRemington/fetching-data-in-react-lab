@@ -12,7 +12,7 @@ In this lab, we’ll create an application that fetches and displays data from t
 **During this exercise, you will practice making an API call and dynamically updating the DOM in React.**
 
 
-# Below, is a brief description of the role of each component in your app
+## Below, is a brief description of the role of each component in your app
 **App, StarshipSearch, StarshipList, StarshipCard:**
 
 - App: The root component that orchestrates the entire application.
