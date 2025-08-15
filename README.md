@@ -8,7 +8,7 @@
 
 **Component hierarchy diagram**
 
-## In the list below, you’ll find a brief description of the role of each component in your app:
+## In the list below, you’ll find a brief description of the role of each component in your app - App, StarshipSearch, StarshipList, StarshipCard:
 
 - App: The root component that orchestrates the entire application.
 - StarshipSearch: Allows users to submit a search form for the name of a starship.
