@@ -8,14 +8,14 @@
 
 **Component hierarchy diagram**
 
-### In the list below, you’ll find a brief description of the role of each component in your app:
+## In the list below, you’ll find a brief description of the role of each component in your app:
 
 - App: The root component that orchestrates the entire application.
 - StarshipSearch: Allows users to submit a search form for the name of a starship.
 - StarshipList: Displays a list of starships held in state.
 - StarshipCard: A component used within StarshipList that displays information on a single starship.
 
-## User stories
+# User stories
 **Use the following user stories as a guide as you build each feature:**
 
 - As a user, I should see a list of starships when the site loads. This should be displayed as a card for each starship.
@@ -33,7 +33,7 @@
 - As a user, I should be able to reset the search by clicking a button labeled Show all starships. This button should only be shown if I have applied a search filter. This button should effectively clear my last search query.
 
 
-## Lab exercise
+# Lab exercise
 - Your goal is to implement the user stories listed above. Follow the steps below to help you accomplish this:
 
 1. Research the documentation of SWAPI to find the endpoint for the starships resource. Figuring out documentation is a critical skill for a developer, so devote 10-15 minutes just to looking through everything. You may not understand it all, but you should learn a bit in the process.
@@ -134,7 +134,7 @@ Use the state variable you created in step 9 (prevSearchTerm) to display the pre
 
 - 💡 Hint: What happens if you filter the starship state using an empty string?
 
-## Level Up
+# Level Up
 Here’s some ideas to take this to the next level:
 
 1. Open up the search to go beyond a starship’s name. Include other data points like the model, manufacturer, and starship class.
@@ -157,3 +157,10 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+
+
+
