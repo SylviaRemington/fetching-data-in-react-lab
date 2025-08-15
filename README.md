@@ -7,7 +7,7 @@ In this lab, we’ll create an application that fetches and displays data from t
 **Component hierarchy diagram**
 ![ComponentHeirarchyDiagram](./public/images/ComponentHeirarchyDiagram.png)
 
-**Above is a component hierarchy diagram to help you understand the structure of the application you will be building.**
+**Above is a component hierarchy diagram to help understand the structure of the application.**
 
 **During this exercise, you will practice making an API call and dynamically updating the DOM in React.**
 
