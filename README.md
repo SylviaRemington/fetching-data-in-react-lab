@@ -124,24 +124,26 @@ Use props to pass the number of displayed starships to the StarshipSearch compon
 
 Use the state variable you created in step 9 (prevSearchTerm) to display the previous search query to the user. If the user has not conducted a search, display the text "Search for a starship by name." instead.
 
-You’ve made it, it’s the last step!
+12. You’ve made it, it’s the last step!
 
-👤 This step will implement this user story:
+- 👤 This step will implement this user story:
 
-As a user, I should be able to reset the search by clicking a button labeled Show all starships. This button should only be shown if I have applied a search filter. This button should effectively clear my last search query.
+- As a user, I should be able to reset the search by clicking a button labeled Show all starships. This button should only be shown if I have applied a search filter. This button should effectively clear my last search query.
 
-You’ve got this! Think through what you’ll need and what tools you already have to accomplish this last user story.
+- You’ve got this! Think through what you’ll need and what tools you already have to accomplish this last user story.
 
-💡 Hint: What happens if you filter the starship state using an empty string?
+- 💡 Hint: What happens if you filter the starship state using an empty string?
 
-Level Up
-Here’s some ideas to take this to the next level
+## Level Up
+Here’s some ideas to take this to the next level:
 
-Open up the search to go beyond a starship’s name. Include other data points like the model, manufacturer, and starship class.
+1. Open up the search to go beyond a starship’s name. Include other data points like the model, manufacturer, and starship class.
 
-Pick another resource from the ones listed on SWAPI’s landing page, such as People, Species, Planets, etc. Build a user interface implementing the same functionality as starships.
+2. Pick another resource from the ones listed on SWAPI’s landing page, such as People, Species, Planets, etc. Build a user interface implementing the same functionality as starships.
 
-Add some styling to enhance the user experience of your application.
+3. Add some styling to enhance the user experience of your application.
+
+<hr>
 
 # React + Vite
 
