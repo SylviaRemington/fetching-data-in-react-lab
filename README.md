@@ -1,14 +1,15 @@
 # Fetching Data in React Lab Exercise - Star Wars API
+**Finished API Example**
 ![StarWarsAPI](./public/images/StarWarsApi.png)
+**Component hierarchy diagram**
 ![ComponentHeirarchyDiagram](./public/images/ComponentHeirarchyDiagram.png)
 
 - In this lab, we’ll create an application that fetches and displays data from the Star Wars API (SWAPI). You’ll develop a feature that presents a list of starships and allows users to search for specific starships by name.
 
 - During this exercise, you will practice making an API call and dynamically updating the DOM in React.
 
-- Below is a component hierarchy diagram to help you understand the structure of the application you will be building:
+- Above is a component hierarchy diagram to help you understand the structure of the application you will be building.
 
-**Component hierarchy diagram**
 
 ## In the list below, you’ll find a brief description of the role of each component in your app - App, StarshipSearch, StarshipList, StarshipCard:
 
