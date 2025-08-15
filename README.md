@@ -7,9 +7,9 @@ In this lab, we’ll create an application that fetches and displays data from t
 **Component hierarchy diagram**
 ![ComponentHeirarchyDiagram](./public/images/ComponentHeirarchyDiagram.png)
 
-- During this exercise, you will practice making an API call and dynamically updating the DOM in React.
+- **During this exercise, you will practice making an API call and dynamically updating the DOM in React.**
 
-- Above is a component hierarchy diagram to help you understand the structure of the application you will be building.
+- **Above is a component hierarchy diagram to help you understand the structure of the application you will be building.**
 
 
 ## In the list below, you’ll find a brief description of the role of each component in your app - App, StarshipSearch, StarshipList, StarshipCard:
