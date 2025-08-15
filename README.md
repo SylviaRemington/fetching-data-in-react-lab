@@ -87,34 +87,36 @@ if (!res.ok) {
 
 9. Time to implement the search feature!
 
-👤 This step will implement this user story:
+- 👤 This step will implement this user story:
 
-As a user, I should see a search bar above the list of starships. I should be able to enter a starship’s name (or a portion of the name) into the search bar and submit my query. When the query is submitted, the input should be reset so I can easily enter my next query.
+- As a user, I should see a search bar above the list of starships. I should be able to enter a starship’s name (or a portion of the name) into the search bar and submit my query. When the query is submitted, the input should be reset so I can easily enter my next query.
 
-Start by creating the form itself. You should only need a single controlled input and a submit button. When the user selects the submit button, a handleSubmit function should be called. This function will:
+- Start by creating the form itself. You should only need a single controlled input and a submit button. When the user selects the submit button, a handleSubmit function should be called. This function will:
 
-Call a new search function in the App component. You’ll need to write this function and pass it on props to this component. Pass the search input’s state to it as an argument. We’ll return to this in the next step.
-Save the search input’s current state into a new state variable in the StarshipSearch component called prevSearchTerm. We’re doing this to lay the groundwork for completing one of our future user stories (users can see what they just searched for).
-Reset the search input’s state to an empty string ('') so the user can search for another name without clearing the input themselves.
-You’re almost done with the search functionality; the rest of the work is in the App component.
+- Call a new search function in the App component. You’ll need to write this function and pass it on props to this component. Pass the search input’s state to it as an argument. We’ll return to this in the next step.
+- Save the search input’s current state into a new state variable in the StarshipSearch component called prevSearchTerm. We’re doing this to lay the groundwork for completing one of our future user stories (users can see what they just searched for).
+- Reset the search input’s state to an empty string ('') so the user can search for another name without clearing the input themselves.
 
-👤 This step will implement this user story:
+10. You’re almost done with the search functionality; the rest of the work is in the App component.
 
-As a user, when I submit a search, the starship results shown should update based on my query. My query should not be case sensitive and also return partial name matches.
+- 👤 This step will implement this user story:
 
-Return to the App component and write a function to search for a starship. This function should:
+- As a user, when I submit a search, the starship results shown should update based on my query. My query should not be case sensitive and also return partial name matches.
 
-Filter the starshipsData state based on the name of a starship.
-The user’s query should be matched against the entirety of a starship’s name. For example, if the user searches for Falcon, they should see the Millennium Falcon included in the results.
-The user’s query should not be case-sensitive. For example, if users search for fAlCoN, they should see the Millennium Falcon included in the results.
-Use the result of the filter to set the displayedStarships state. Do not modify the starshipsData state.
-At the end of this step, you should be able to conduct a search and see all the starships that match the search you made.
+- Return to the App component and write a function to search for a starship. This function should:
 
-It’s just detail work from here!
+- Filter the starshipsData state based on the name of a starship.
+- The user’s query should be matched against the entirety of a starship’s name. For example, if the user searches for Falcon, they should see the Millennium Falcon included in the results.
+- The user’s query should not be case-sensitive. For example, if users search for fAlCoN, they should see the Millennium Falcon included in the results.
+- Use the result of the filter to set the displayedStarships state. Do not modify the starshipsData state.
 
-👤 This step will implement this user story:
+- At the end of this step, you should be able to conduct a search and see all the starships that match the search you made.
 
-As a user, I should see some search metadata above the search form. This search data should include:
+11. It’s just detail work from here!
+
+- 👤 This step will implement this user story:
+
+- As a user, I should see some search metadata above the search form. This search data should include:
 
 The number of results currently shown. This should always be displayed, even if I haven’t conducted a search.
 My last search query, if I have made one. If I have not conducted a search or the search results have been reset, the text “Search for a starship by name.” should be shown instead.
