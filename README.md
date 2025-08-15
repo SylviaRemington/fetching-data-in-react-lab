@@ -12,13 +12,15 @@ In this lab, we’ll create an application that fetches and displays data from t
 **During this exercise, you will practice making an API call and dynamically updating the DOM in React.**
 
 
-## Below, is a brief description of the role of each component in your app
+# Below, is a brief description of the role of each component in your app
 **App, StarshipSearch, StarshipList, StarshipCard:**
 
 - App: The root component that orchestrates the entire application.
 - StarshipSearch: Allows users to submit a search form for the name of a starship.
 - StarshipList: Displays a list of starships held in state.
 - StarshipCard: A component used within StarshipList that displays information on a single starship.
+
+<hr>
 
 # User stories
 **Use the following user stories as a guide as you build each feature:**
@@ -37,6 +39,7 @@ In this lab, we’ll create an application that fetches and displays data from t
 
 - As a user, I should be able to reset the search by clicking a button labeled Show all starships. This button should only be shown if I have applied a search filter. This button should effectively clear my last search query.
 
+<hr>
 
 # Lab exercise
 - Your goal is to implement the user stories listed above. Follow the steps below to help you accomplish this:
@@ -138,6 +141,8 @@ Use the state variable you created in step 9 (prevSearchTerm) to display the pre
 - You’ve got this! Think through what you’ll need and what tools you already have to accomplish this last user story.
 
 - 💡 Hint: What happens if you filter the starship state using an empty string?
+
+<hr>
 
 # Level Up
 Here’s some ideas to take this to the next level:
